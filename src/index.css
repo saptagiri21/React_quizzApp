@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #c0a3a3;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+/* App title */
+.container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Question text */
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Options list */
+.options {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+/* Each option */
+.options li {
+  margin-bottom: 10px;
+}
+
+/* Option buttons */
+.option-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e3e3e3;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.option-button:hover {
+  background-color: #d0d0d0;
+}
+
+/* Disabled state */
+.option-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Next button */
+.next-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #43a047;
+}
+
+/* Result screen */
+.container p {
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: center;
+}
